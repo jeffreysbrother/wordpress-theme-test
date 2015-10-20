@@ -210,3 +210,17 @@ p.post-info a:link,
 p.post-info a:visited {
   color: #999;
 }
+
+/*media queries*/
+
+@media (max-width: 1200px) {
+  div.title-column {
+    width: 100%;
+    float: none;
+  }
+
+  div.text-column {
+    width: 100%;
+    float: none;
+  }
+}
