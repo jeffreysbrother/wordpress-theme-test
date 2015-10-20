@@ -27,7 +27,7 @@ p {
 
 /*/General Layout/*/
 div.container {
-  max-width: 90%;
+  max-width: 70%;
   margin: 0 auto;
   padding: 2em;
 }
@@ -152,7 +152,8 @@ div.info-box {
   float: right;
   margin: 0 0 30px 30px;
   padding: 20px;
-  background-color: #eee
+  background-color: #eee;
+  min-width: 200px;
 }
 
 div.info-box h4 {
