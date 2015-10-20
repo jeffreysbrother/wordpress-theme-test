@@ -114,6 +114,16 @@ nav ul li.current-menu-item a:visited {
   padding: 0;
 }
 
+.site-footer nav ul li.current-menu-item a:link,
+.site-footer nav ul li.current-menu-item a:visited {
+  background-color: inherit;
+  color: purple;
+}
+
+.site-footer nav ul li a:hover {
+  background-color: inherit;
+}
+
 /*/Page Layout/*/
 article.page h2 {
   font-size: 300%;
@@ -133,4 +143,21 @@ div.title-column {
 div.text-column {
   width: 70%;
   float: right;
+}
+
+/*info box styles*/
+div.info-box {
+  width: 30%;
+  float: right;
+  margin: 0 0 30px 30px;
+  padding: 20px;
+  background-color: #eee
+}
+
+div.info-box h4 {
+  margin-bottom: 6px;
+}
+
+div.info-box p {
+  font-size: 85%;
 }
