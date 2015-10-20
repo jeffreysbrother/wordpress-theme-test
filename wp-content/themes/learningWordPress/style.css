@@ -1,0 +1,136 @@
+/*
+heme name: LearningWordPress
+Author: James Cool
+Author URI: http://jeffreysbrother.com
+Version: 1.0
+*/
+
+/** {
+  margin: 0;
+  padding: 0;
+}*/
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 100%;
+  color: #333;
+  /*background-color: rgb(221, 221, 221);*/
+}
+
+a:link, a:visited {
+  color: #006ec3;
+  text-decoration: none;
+}
+
+p {
+  line-height: 1.5em;
+}
+
+/*/General Layout/*/
+div.container {
+  background-color: rgb(255, 255, 255);
+  max-width: 90%;
+  margin: 0 auto;
+  padding: 2em;
+}
+
+/*/Header/*/
+.site-header {
+  border-bottom: 1px solid #999;
+}
+
+/*/Footer/*/
+.site-footer {
+  border-top: 2px dotted #999;
+  margin-top: 30px;
+}
+
+/*/Article/*/
+article.post:last-of-type {
+  border-bottom: none;
+}
+
+article.post {
+  border-bottom: 1px solid rgb(111, 111, 111);
+}
+
+/*/Navigation/*/
+.site-nav ul {
+  margin-top: 10px;
+  padding: 0;
+}
+.site-nav ul:before,
+.site-nav ul:after {
+  content: "";
+  display: table;
+}
+
+.site-nav ul:after {
+  clear: both;
+}
+
+.site-nav ul {
+  *zoom: 1;
+}
+
+.site-nav ul li {
+  list-style: none;
+  float: left;
+}
+
+/*/Header Menu/*/
+ nav ul li {
+  margin-right: 5px;
+}
+
+nav ul li a:link,
+nav ul li a:visited {
+  display: block;
+  padding: 10px 18px;
+  border: 1px solid #bbb;
+  /*border-bottom: none;*/
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  background-color: #ececec;
+}
+
+nav ul li.current-menu-item a:link,
+nav ul li.current-menu-item a:visited {
+  background-color: #006ec3;
+  color: #FFF;
+}
+
+/*/Footer Menu/*/
+.site-footer nav ul li {
+  margin-right: 10px;
+  padding-right: 10px;
+  border-right: 1px dotted #bbb;
+}
+
+.site-footer nav ul li a {
+  border: none;
+  padding: 0;
+}
+
+/*/Page Layout/*/
+article.page h2 {
+  font-size: 300%;
+  margin-bottom: 15px;
+}
+
+.clearfix:before, .clearfix:after { content: ""; display: table; }
+.clearfix:after { clear: both; }
+.clearfix { *zoom: 1; }
+
+/*two column title layout*/
+div.title-column {
+  width: 30%;
+  float: left;
+}
+
+div.text-column {
+  width: 70%;
+  float: right;
+}
