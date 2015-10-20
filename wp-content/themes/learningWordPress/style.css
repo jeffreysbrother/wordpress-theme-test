@@ -22,7 +22,8 @@ p {
 
 /*/General Layout/*/
 div.container {
-  max-width: 70%;
+  width: 70%;
+  max-width: 1000px;
   margin: 0 auto;
   padding: 2em;
 }
