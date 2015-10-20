@@ -33,3 +33,11 @@ function has_children() {
   $pages = get_pages('child_of=' . $post->ID);
   return count($pages);
 }
+
+
+//customize excerpt word count Length
+function custom_excerpt_length() {
+  return 66;
+}
+
+add_filter('excerpt_length', 'custom_excerpt_length');
