@@ -298,12 +298,16 @@ div.hd-search label {
 }
 
 div.hd-search #searchsubmit {
-  background-color: #006ec3;
+  background-color: gray;
   color: #fff;
   padding: 6px 14px;
   border: none;
   vertical-align: top;
   margin-top: 15px;
+}
+
+div.hd-search #searchsubmit:hover {
+  background-color: #666;
 }
 
 div.hd-search #s {
