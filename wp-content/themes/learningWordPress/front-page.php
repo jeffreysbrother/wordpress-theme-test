@@ -22,7 +22,8 @@ if(have_posts()) :
 
         if($artPosts->have_posts()) :
         while($artPosts->have_posts()) : $artPosts->the_post(); ?>
-          <h2><?php the_title(); ?></h2>
+          <h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
+          <?php the_excerpt(); ?>
         <?php endwhile;
 
         else :
@@ -38,7 +39,8 @@ if(have_posts()) :
 
         if($sportsPosts->have_posts()) :
         while($sportsPosts->have_posts()) : $sportsPosts->the_post(); ?>
-          <h2><?php the_title(); ?></h2>
+          <h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
+          <?php the_excerpt(); ?>
         <?php endwhile;
 
         else :

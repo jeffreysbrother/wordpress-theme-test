@@ -315,3 +315,18 @@ div.hd-search #s {
   margin-top: 15px;
   padding: 4px 0;
 }
+
+/*post columns*/
+.one-half {
+  width: 45%;
+  float: left;
+  margin-right: 10%;
+}
+
+.last {
+  margin-right: 0;
+}
+
+.home-columns {
+  padding-top: 30px;
+}
