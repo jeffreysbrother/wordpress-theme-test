@@ -51,6 +51,16 @@ function learningWordPress_setup() {
 
     //add post format support
     add_theme_support('post-formats', array('aside', 'gallery', 'link'));
+
+    //enable widgets
+    register_sidebar( array(
+     'name'          => 'Home right sidebar',
+     'id'            => 'home_right_1',
+     'before_widget' => '<div>',
+     'after_widget'  => '</div>',
+     'before_title'  => '<h2 class="rounded">',
+     'after_title'   => '</h2>',
+    ) );
 }
 
 add_action('after_setup_theme', 'learningWordPress_setup');
