@@ -303,9 +303,11 @@ div.hd-search #searchsubmit {
   padding: 6px 14px;
   border: none;
   vertical-align: top;
+  margin-top: 15px;
 }
 
 div.hd-search #s {
   vertical-align: top;
+  margin-top: 15px;
   padding: 4px 0;
 }
