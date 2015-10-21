@@ -12,23 +12,44 @@ if(have_posts()) :
   else :
     echo '<p>No content found</p>';
 
-  endif;
+  endif; ?>
 
 
-  //posts loop begins here
-  $opinionPosts = new WP_Query('cat=5&posts_per_page=2');
+  <div class="home-columns clearfix">
+    <div class="one-half">
+        <?php //first posts loop begins here
+        $artPosts = new WP_Query('cat=5&posts_per_page=2');
 
-  if($opinionPosts->have_posts()) :
-  while($opinionPosts->have_posts()) : $opinionPosts->the_post(); ?>
-  	<h2><?php the_title(); ?></h2>
-  <?php endwhile;
+        if($artPosts->have_posts()) :
+        while($artPosts->have_posts()) : $artPosts->the_post(); ?>
+          <h2><?php the_title(); ?></h2>
+        <?php endwhile;
 
-  else :
-   	//fallback to no content message
-  endif;
-  wp_reset_postdata();
+        else :
+          //fallback to no content message
+        endif;
+        wp_reset_postdata(); ?>
+    </div>
 
 
+    <div class="one-half last">
+        <?php //second posts loop begins here
+        $sportsPosts = new WP_Query('cat=4&posts_per_page=2');
+
+        if($sportsPosts->have_posts()) :
+        while($sportsPosts->have_posts()) : $sportsPosts->the_post(); ?>
+          <h2><?php the_title(); ?></h2>
+        <?php endwhile;
+
+        else :
+          //fallback to no content message
+        endif;
+        wp_reset_postdata(); ?>
+    </div>
+
+  </div>
+
+
+<?php
   get_footer();
-
 ?>
