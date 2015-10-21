@@ -224,3 +224,19 @@ p.post-info a:visited {
     float: none;
   }
 }
+
+/*image styles*/
+img {
+  max-width: 100%;
+}
+
+.has-thumbnail {
+  position: relative;
+  padding-left: 200px;
+}
+
+.post-thumbnail {
+  position: absolute;
+  top: 0;
+  left: 0;
+}

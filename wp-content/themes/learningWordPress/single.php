@@ -26,10 +26,10 @@ if(have_posts()) :
           echo trim($output, $separator);
 
         }
-
        ?>
-
     </p>
+
+    <?php the_post_thumbnail('banner-image'); ?>
 
     <?php the_content();  ?>
   </article>
