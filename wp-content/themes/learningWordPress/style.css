@@ -271,6 +271,13 @@ p.post-info a:visited {
   }
 }
 
+@media (max-width: 818px) {
+  div.hd-search #searchsubmit,
+  div.hd-search #s {
+    display: none;
+  }
+}
+
 /*image styles*/
 img {
   max-width: 100%;
