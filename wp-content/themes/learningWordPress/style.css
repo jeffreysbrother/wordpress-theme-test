@@ -23,7 +23,7 @@ p {
 /*/General Layout/*/
 div.container {
   width: 70%;
-  max-width: 1000px;
+  max-width: 950px;
   margin: 0 auto;
   padding: 2em;
 }
@@ -32,6 +32,7 @@ div.container {
 .site-header {
   border-bottom: 1px solid #999;
 }
+
 
 /*/Footer/*/
 .site-footer {
@@ -336,7 +337,7 @@ div.hd-search #s {
 
 }
 
-@media (max-width: 818px) {
+@media (max-width: 932px) {
 
   div.hd-search #searchsubmit,
   div.hd-search #s {
@@ -353,11 +354,20 @@ div.hd-search #s {
     display: none;
   }
 
+
 }
 
 @media (max-width: 690px) {
   div.container {
     width: 90%;
     padding: 0;
+  }
+
+  .site-header h5 {
+    margin-top: 10px;
+  }
+
+  .site-header h1 {
+    margin-bottom: 0;
   }
 }
