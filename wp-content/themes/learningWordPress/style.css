@@ -364,7 +364,6 @@ div.hd-search #s {
     display: none;
   }
 
-
 }
 
 @media (max-width: 690px) {
@@ -375,9 +374,46 @@ div.hd-search #s {
 
   .site-header h5 {
     margin-top: 10px;
+    text-align: center;
   }
 
   .site-header h1 {
     margin-bottom: 0;
+    text-align: center;
+  }
+
+  .site-nav ul li {
+    float: none;
+  }
+
+  .site-header nav ul li a:link,
+  .site-header nav ul li a:visited {
+    padding: 10px 18px;
+    padding-left: 0px;
+    border: none;
+    text-align: center;
+  }
+
+  .site-header nav ul {
+    padding-bottom: 27px;
+  }
+
+  .site-header nav ul li.current-menu-item a:link,
+  .site-header nav ul li.current-menu-item a:visited,
+  .site-header nav ul li.current-page-ancestor a:link,
+  .site-header nav ul li.current-page-ancestor a:visited {
+    font-weight: bold;
+    background-color: inherit;
+    color: #777;
+    border-bottom: 1px solid #777;
+  }
+
+  .site-header {
+    border-bottom: none;
+  }
+
+  .post.page h2 {
+    text-align: center;
+    display: none;
   }
 }
