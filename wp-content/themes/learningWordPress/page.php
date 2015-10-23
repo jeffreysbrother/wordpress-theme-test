@@ -7,6 +7,8 @@ if(have_posts()) :
 
   <article class="post page">
 
+
+    <!-- sub navigation on about page -->
     <?php
 
     if(has_children() OR $post->post_parent > 0) { ?>
@@ -26,6 +28,8 @@ if(have_posts()) :
       </nav>
 
     <?php } ?>
+    <!-- end sub navigation -->
+
 
     <h2><?php the_title(); ?></h2>
     <?php the_content();  ?>
