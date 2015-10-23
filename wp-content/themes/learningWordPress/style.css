@@ -416,4 +416,14 @@ div.hd-search #s {
     text-align: center;
     display: none;
   }
+
+  .site-footer p {
+    text-align: center;
+  }
+
+  .site-footer nav ul li {
+    text-align: center;
+    padding-bottom: 6px;
+    border: none;
+  }
 }
