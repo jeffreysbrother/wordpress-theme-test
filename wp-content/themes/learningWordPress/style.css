@@ -324,7 +324,10 @@ div.hd-search #s {
 
 textarea {
   width: 326px;
+  border: 1px solid #bbb;
 }
+
+
 
 input[type="submit"] {
   background-color: #006ec3;
