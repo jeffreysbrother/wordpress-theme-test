@@ -194,6 +194,8 @@ div.info-box {
   float: right;
   margin: 0 0 30px 30px;
   padding: 20px;
+  padding-top: 0;
+  padding-bottom: 5px;
   background-color: #eee;
   min-width: 200px;
 }
