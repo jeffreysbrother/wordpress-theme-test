@@ -320,6 +320,19 @@ div.hd-search #s {
 }
 
 
+/*contact page*/
+
+textarea {
+  width: 326px;
+}
+
+input[type="submit"] {
+  background-color: #006ec3;
+  border: 1px solid #bbb;
+  padding: 10px 18px;
+  color: #fff;
+  margin-top: 4px;
+}
 
 
 /*media queries*/
@@ -425,5 +438,13 @@ div.hd-search #s {
     text-align: center;
     padding-bottom: 6px;
     border: none;
+  }
+
+  textarea {
+    width: 100%;
+  }
+
+  input {
+    width: 100%;
   }
 }
