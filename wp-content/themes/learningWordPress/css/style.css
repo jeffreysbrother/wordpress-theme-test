@@ -397,6 +397,11 @@ div.wpcf7-response-output {
   .info-box {
     display: none;
   }
+
+  .site-nav.children-links li a,
+  .parent-link a {
+    display: none;
+  }
 }
 
 @media (max-width: 690px) {
