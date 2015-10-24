@@ -294,6 +294,7 @@ div.hd-search #searchsubmit {
   border: none;
   vertical-align: top;
   margin-top: 15px;
+  font-size: .7em;
 }
 
 div.hd-search #searchsubmit:hover {
@@ -303,7 +304,7 @@ div.hd-search #searchsubmit:hover {
 div.hd-search #s {
   vertical-align: top;
   margin-top: 15px;
-  padding: 4px 0;
+  /*padding: 4px 0;*/
 }
 
 /*post columns*/
