@@ -39,8 +39,10 @@ if(have_posts()) :
   else :
     echo '<p>No content found</p>';
 
-  endif;
+  endif; ?>
 
+  <?php comments_template(); ?>
+
+<?php
   get_footer();
-
 ?>
