@@ -338,6 +338,11 @@ input[type="submit"] {
   margin-top: 4px;
 }
 
+input[type="text"],
+input[type="email"] {
+  width: 367px;
+}
+
 div.wpcf7-validation-errors {
   border: 2px solid red;
 }
