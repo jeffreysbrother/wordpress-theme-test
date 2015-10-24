@@ -6,7 +6,7 @@ Version: 1.0
 */
 
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Roboto Slab', serif;
   font-size: 100%;
   color: #333;
 }
@@ -325,7 +325,7 @@ div.hd-search #s {
 /*contact page*/
 
 textarea {
-  width: 326px;
+  width: 367px;
   border: 1px solid #bbb;
 }
 
@@ -388,6 +388,9 @@ div.wpcf7-response-output {
     display: none;
   }
 
+  .info-box {
+    display: none;
+  }
 }
 
 @media (max-width: 690px) {
