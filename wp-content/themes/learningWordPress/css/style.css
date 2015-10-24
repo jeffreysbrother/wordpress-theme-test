@@ -469,6 +469,11 @@ div.wpcf7-response-output {
     width: 100%;
   }
 
+  input[type="text"],
+  input[type="email"] {
+    width: 100%;
+  }
+
   div.wpcf7-validation-errors {
     margin-top: 0;
   }
