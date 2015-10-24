@@ -338,7 +338,7 @@ input[type="submit"] {
   margin-top: 4px;
 }
 
-input[type="text"],
+input[type="text"].wpcf7-form-control,
 input[type="email"] {
   width: 367px;
 }
@@ -469,7 +469,7 @@ div.wpcf7-response-output {
     width: 100%;
   }
 
-  input[type="text"],
+  input[type="text"].wpcf7-form-control,
   input[type="email"] {
     width: 100%;
   }
